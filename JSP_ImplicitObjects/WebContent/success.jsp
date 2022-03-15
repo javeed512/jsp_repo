@@ -1,5 +1,5 @@
 
-<%@ page language="java"  isELIgnored="false" contentType="text/html; charset=ISO-8859-1"
+<%@ page language="java"  isELIgnored="false"  contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
@@ -39,6 +39,9 @@ Page Context: ${data}
 	
 	session1 =  session;
 	
+	RequestDispatcher rd =	request.getRequestDispatcher("/test.jsp");	
+
+		rd.include(request, response);
 	
 %>
 
