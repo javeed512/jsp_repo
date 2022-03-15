@@ -217,3 +217,113 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2022-03-15 14:13:17.897
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-15 14:18:01.026
+!MESSAGE C:\Program Files\Git\etc\.probe-f6f0144d-703b-4101-876c-21e292d39b9e
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Program Files\Git\etc\.probe-f6f0144d-703b-4101-876c-21e292d39b9e
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.nio.file.Files.createFile(Unknown Source)
+	at org.eclipse.jgit.util.FS$FileStoreAttributeCache.<init>(FS.java:234)
+	at org.eclipse.jgit.util.FS$FileStoreAttributeCache.getFsTimestampResolution(FS.java:211)
+	at org.eclipse.jgit.util.FS.getFsTimerResolution(FS.java:321)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.<init>(FileSnapshot.java:186)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.save(FileSnapshot.java:122)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.load(FileBasedConfig.java:156)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.loadSystemConfig(FileRepository.java:245)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.<init>(FileRepository.java:203)
+	at org.eclipse.jgit.storage.file.FileRepositoryBuilder.build(FileRepositoryBuilder.java:88)
+	at org.eclipse.jgit.storage.file.FileRepositoryBuilder.create(FileRepositoryBuilder.java:108)
+	at org.eclipse.egit.core.RepositoryCache.lookupRepository(RepositoryCache.java:58)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:693)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:651)
+	at org.eclipse.egit.core.project.GitProjectData.setRepositoryMappings(GitProjectData.java:465)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.connectProject(ConnectProviderOperation.java:153)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:111)
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:35.538
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:35.539
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4ea5a1d1[org.springframework.tooling.boot.ls:1.8.0.201906200642(id=624)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:35.570
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:36.003
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.305
+!MESSAGE Boot LS startup time from start to initialized: 16686ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.426
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AOdnAqQEisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.427
+!MESSAGE subscribing to classpath changes: sts4.classpath.AOdnAqQE isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.429
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.432
+!MESSAGE subsribers = {sts4.classpath.AOdnAqQE=Send Classpath Notifications(180)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.433
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.437
+!MESSAGE project JSP_ImplicitObjects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.438
+!MESSAGE project JSP_LifeCycle ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.439
+!MESSAGE Preparing classpath changed notification JSP_ImplicitObjects
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.439
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.440
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.441
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.441
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.442
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AOdnAqQE => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.446
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.447
+!MESSAGE buffering callback sts4.classpath.AOdnAqQE JSP_ImplicitObjects false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.449
+!MESSAGE Preparing classpath changed notification JSP_LifeCycle
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.450
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.451
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.452
+!MESSAGE buffering callback sts4.classpath.AOdnAqQE JSP_LifeCycle false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.455
+!MESSAGE executing callback sts4.classpath.AOdnAqQE 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 14:19:52.582
+!MESSAGE executing callback sts4.classpath.AOdnAqQE SUCCESS [done]
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-03-15 14:37:36.212
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.

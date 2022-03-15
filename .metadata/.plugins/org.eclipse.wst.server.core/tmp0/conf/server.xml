@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="E:\JSP_Demos\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="E:\JSP_Demos\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_LifeCycle" path="/JSP_LifeCycle" reloadable="true" source="org.eclipse.jst.jee.server:JSP_LifeCycle"/></Host>
+      <Context docBase="E:\JSP_Demos\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="E:\JSP_Demos\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_LifeCycle" path="/JSP_LifeCycle" reloadable="true" source="org.eclipse.jst.jee.server:JSP_LifeCycle"/><Context docBase="E:\JSP_Demos\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\JSP_ImplicitObjects" path="/JSP_ImplicitObjects" reloadable="true" source="org.eclipse.jst.jee.server:JSP_ImplicitObjects"/></Host>
     </Engine>
   </Service>
 </Server>
