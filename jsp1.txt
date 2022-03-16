@@ -117,8 +117,34 @@ Implicit Variables or OBJECTS:
 
 
 
+Action tags:
+============
+
+To replace explicit java code implementation to some extend.
 
 
+
+
+Tag Libraries:
+===============
+JSTL
+
+steps:
+1. Get  jstl library (jars) 
+Download from google
+2. import jstl
+<%@ taglib    uri="path/corelib"  prefix="c"  %>
+
+3. use tags in jsp
+
+<c:out value="welcome" ></c:out>    ---> out.print("welcome")
+
+<c:catch var="e1">
+
+				---> try{
+
+				}catch(){}		
+</c:catch>  								  --->
 
 
 

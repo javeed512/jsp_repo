@@ -7,3 +7,5 @@ E:\JSP_Demos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3246854005.in
 \JSP_ImplicitObjects\src
 E:\JSP_Demos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2373849567.index
 \JSP_LifeCycle\src
+E:\JSP_Demos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2286319862.index
+\JSTL\src
