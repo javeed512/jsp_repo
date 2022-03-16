@@ -1533,3 +1533,304 @@ Caused by: java.lang.NullPointerException
 
 !ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-03-16 14:54:58.765
 !MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:15.008
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:15.009
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@c242dc1[org.springframework.tooling.boot.ls:1.8.0.201906200642(id=624)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:15.048
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:15.628
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:30.908
+!MESSAGE Boot LS startup time from start to initialized: 15753ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.015
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hPQpyVBGisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.016
+!MESSAGE subscribing to classpath changes: sts4.classpath.hPQpyVBG isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.018
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.021
+!MESSAGE subsribers = {sts4.classpath.hPQpyVBG=Send Classpath Notifications(1685)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.022
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.026
+!MESSAGE project Sample_Mini_Project ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.027
+!MESSAGE project Directives ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.028
+!MESSAGE Preparing classpath changed notification Sample_Mini_Project
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.028
+!MESSAGE project JSP_ActionTags ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.028
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.029
+!MESSAGE project JSP_ImplicitObjects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.030
+!MESSAGE project JSP_LifeCycle ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.030
+!MESSAGE project JSTL ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.031
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.031
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.032
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.032
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hPQpyVBG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.037
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.038
+!MESSAGE buffering callback sts4.classpath.hPQpyVBG Sample_Mini_Project false 54
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.039
+!MESSAGE Preparing classpath changed notification Directives
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.041
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.043
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.044
+!MESSAGE buffering callback sts4.classpath.hPQpyVBG Directives false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.044
+!MESSAGE Preparing classpath changed notification JSP_ActionTags
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.045
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.047
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.047
+!MESSAGE buffering callback sts4.classpath.hPQpyVBG JSP_ActionTags false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.048
+!MESSAGE Preparing classpath changed notification JSP_ImplicitObjects
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.048
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.049
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.050
+!MESSAGE buffering callback sts4.classpath.hPQpyVBG JSP_ImplicitObjects false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.051
+!MESSAGE Preparing classpath changed notification JSP_LifeCycle
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.051
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.053
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.054
+!MESSAGE buffering callback sts4.classpath.hPQpyVBG JSP_LifeCycle false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.055
+!MESSAGE Preparing classpath changed notification JSTL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.055
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.056
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.057
+!MESSAGE buffering callback sts4.classpath.hPQpyVBG JSTL false 54
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.059
+!MESSAGE executing callback sts4.classpath.hPQpyVBG 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 15:27:31.282
+!MESSAGE executing callback sts4.classpath.hPQpyVBG SUCCESS [done]
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2022-03-16 15:53:45.369
+!MESSAGE Could not publish server configuration: null.
+!STACK 0
+java.lang.NullPointerException
+	at com.sun.org.apache.xerces.internal.parsers.AbstractDOMParser.comment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.comment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.loadDocument(Factory.java:90)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:648)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat90Configuration.localizeConfiguration(Tomcat90Configuration.java:710)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:245)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:977)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:776)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3184)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:357)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-03-16 15:53:57.164
+!MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:13:37.099
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hPQpyVBG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:13:37.100
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.hPQpyVBG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:13:37.100
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:13:37.101
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.hPQpyVBG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.070
+!MESSAGE Boot LS startup time from start to initialized: 5864ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.169
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TajBJCDoisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.170
+!MESSAGE subscribing to classpath changes: sts4.classpath.TajBJCDo isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.171
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.171
+!MESSAGE subsribers = {sts4.classpath.TajBJCDo=Send Classpath Notifications(2682)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.172
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.173
+!MESSAGE project Sample_Mini_Project ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.174
+!MESSAGE project Directives ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.174
+!MESSAGE project JSP_ActionTags ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.175
+!MESSAGE project JSP_ImplicitObjects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.175
+!MESSAGE Preparing classpath changed notification Sample_Mini_Project
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.176
+!MESSAGE project JSP_LifeCycle ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.176
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.177
+!MESSAGE project JSTL ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.177
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.178
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.179
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.179
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.180
+!MESSAGE buffering callback sts4.classpath.TajBJCDo Sample_Mini_Project false 54
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.180
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TajBJCDo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.180
+!MESSAGE Preparing classpath changed notification Directives
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.181
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.183
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.184
+!MESSAGE buffering callback sts4.classpath.TajBJCDo Directives false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.184
+!MESSAGE Preparing classpath changed notification JSP_ActionTags
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.185
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.186
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.186
+!MESSAGE buffering callback sts4.classpath.TajBJCDo JSP_ActionTags false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.187
+!MESSAGE Preparing classpath changed notification JSP_ImplicitObjects
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.187
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.188
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.189
+!MESSAGE buffering callback sts4.classpath.TajBJCDo JSP_ImplicitObjects false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.189
+!MESSAGE Preparing classpath changed notification JSP_LifeCycle
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.190
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.191
+!MESSAGE classpath=50 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.192
+!MESSAGE buffering callback sts4.classpath.TajBJCDo JSP_LifeCycle false 50
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.192
+!MESSAGE Preparing classpath changed notification JSTL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.193
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.194
+!MESSAGE classpath=54 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.194
+!MESSAGE buffering callback sts4.classpath.TajBJCDo JSTL false 54
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.195
+!MESSAGE executing callback sts4.classpath.TajBJCDo 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-16 16:16:09.497
+!MESSAGE executing callback sts4.classpath.TajBJCDo SUCCESS [done]

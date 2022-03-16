@@ -9,3 +9,5 @@ E:\JSP_Demos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2373849567.in
 \JSP_LifeCycle\src
 E:\JSP_Demos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2286319862.index
 \JSTL\src
+E:\JSP_Demos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3253712207.index
+\Sample_Mini_Project\src
